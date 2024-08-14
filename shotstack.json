@@ -1,0 +1,38 @@
+{
+  "message": "Request failed with status code 400",
+  "name": "AxiosError",
+  "stack": "AxiosError: Request failed with status code 400\n    at n3e (https://dashboard.shotstack.io/assets/index-BoKmDmH0.js:106:1041)\n    at XMLHttpRequest.p (https://dashboard.shotstack.io/assets/index-BoKmDmH0.js:106:4253)\n    at Mg.request (https://dashboard.shotstack.io/assets/index-BoKmDmH0.js:108:3129)\n    at async Fan (https://dashboard.shotstack.io/assets/index-BoKmDmH0.js:2156:35801)\n    at async Uan (https://dashboard.shotstack.io/assets/index-BoKmDmH0.js:2156:36197)\n    at async a (https://dashboard.shotstack.io/assets/index-BoKmDmH0.js:2156:34453)",
+  "config": {
+      "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+      },
+      "adapter": [
+          "xhr",
+          "http"
+      ],
+      "transformRequest": [
+          null
+      ],
+      "transformResponse": [
+          null
+      ],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": {},
+      "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Authorization": "Bearer HIDDEN",
+          "stage": "v1"
+      },
+      "baseURL": "https://api.shotstack.io/v1/dashboard/",
+      "method": "get",
+      "url": "render/v_inbox_url~v2.7403005660125808683?data=true&merged=true"
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 400
+}
